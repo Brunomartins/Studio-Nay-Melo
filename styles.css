@@ -90,6 +90,46 @@ footer {
 .social-links a:hover {
     text-decoration: underline;
 }
+/* Estilos para a página */
+
+/* Estilos padrão */
+
+/* ... (estilos anteriores) ... */
+
+/* Adaptação para dispositivos móveis */
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .header-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .procedimento-container {
+        display: block;
+        padding: 10px;
+    }
+
+    .procedimento {
+        display: block;
+        margin: 10px 0;
+        width: auto;
+    }
+
+    footer {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .footer-column {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+}
+
 
   
 
