@@ -1,8 +1,8 @@
 
 /* Estilos para a página */
 body{
-     background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(0, 0, 255));
-    background-color: white;
+    color: black;
+    background-color: #7F4CA6;
 }
 
 body {
@@ -10,24 +10,27 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*menu de cima*/
 header {
+    color: black;
     text-align: center;
     padding: 20px;
-    background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(182, 182, 190));
-    background-color: #f2f2f2;
+    background-color: #7F4CA6;
 }
 
 .header-image {
+    border: 5px solid white;
+    height: 50%; width: 50%;
     border-radius: 60%;
     width: 200px; /* ajuste o tamanho conforme necessário */
-    height: 200px; /* ajuste o tamanho conforme necessário */
+    height:200px; /* ajuste o tamanho conforme necessário */
 }
 
 /* Estilos para a página */
 
 .procedimentos {
-    font-size: 35px;
+    color: black;
+    font-size: 30px; 
     text-align: center;
     margin-bottom: 5cm; /* Adicionando margem na parte inferior dos procedimentos */
 }
@@ -38,37 +41,38 @@ header {
 }
 
 .procedimento {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #f5f5f54f;
+    color: black; 
+    display:10px;
+    margin: 2px;
+    padding: 20px 25px;
+    border-radius: 15px;
+    background-color: white; /*muda a cor da caixa dos procedimentos*/
     text-align: left;
-    width: 200px;
+    width: 200%;
 }
 
 .procedimento h3 {
+    vertical-align: 0%;
     margin-top: 0;
     font-size: 30px;
 }
 
 .procedimento p {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
 footer {
     margin-top: 5cm;
-    border-top: 1px solid #ccc; /* Adicionando uma linha superior */
+    border-top: 0px solid #ccc; /* Adicionando uma linha superior */ 
     padding-top: 20px; /* Espaçamento para a linha */
 }
 
 footer {
-    background-image: linear-gradient(to bottom right, rgb(0, 204, 255), rgb(0, 0, 255));
-    background-color: white;
-    color: black ;
-    text-align: center;
+   color: black;
+   border-color: white;
+   text-align: center;
     padding: 20px;
 }
 
@@ -92,7 +96,7 @@ footer {
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Estilos para dispositivos desktop */
@@ -101,13 +105,13 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/*organiza os procedimentos na tela*/
 .procedimento {
-    width: calc(50% - 20px); /* 50% de largura para exibir lado a lado */
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 15px;
+    width: calc(50% - 60px); /* 50% de largura para exibir lado a lado */
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
 }
 
 /* Estilos para dispositivos desktop */
@@ -123,7 +127,7 @@ footer {
 }
 
 /* Estilos para dispositivos móveis */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 728px) {
     footer {
         text-align: center;
     }
@@ -137,6 +141,10 @@ footer {
         margin-bottom: 20px;
         margin-right: 0;
     }
+}
+.class-i{
+    border-radius: 50px;
+    container: icon;
 }
 
 
